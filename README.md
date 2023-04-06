@@ -10,9 +10,9 @@ Features
     Guide section with a photo and description of a local guide
     Footer with contact information
 
-    <img src="images/hometown.jpg">
-
-
+  
+    
+![screenshot](images/hometown.jpg)
 Setup
 
     Clone the repository or download the files.
