@@ -13,6 +13,11 @@ Features
   
     
 ![screenshot](images/hometown.jpg)
+
+[see it live](https://mycountrytour.netlify.app/)
+
+
+
 Setup
 
     Clone the repository or download the files.
