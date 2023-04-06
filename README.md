@@ -10,7 +10,7 @@ Features
     Guide section with a photo and description of a local guide
     Footer with contact information
 
-    ![Screenshot](hometown.png)
+    ![Screenshot](images/hometown.png)
 
 
 Setup
