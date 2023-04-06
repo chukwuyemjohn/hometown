@@ -2,6 +2,7 @@
 Readme
 
 This is a website for showcasing the attractions and activities in a fictional hometown. The website is built using HTML and CSS.
+
 Features
 
     Hero section with a background image and a call-to-action button
