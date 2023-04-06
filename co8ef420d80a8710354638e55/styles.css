@@ -1,0 +1,163 @@
+/**
+LIGHT: #F1FAEE
+GREEN: #082900
+#0C150C
+#243B08
+#1E1F17
+#464C25
+*/
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    background-color: #050505;
+ 
+}
+
+.hometown{
+    width:920px;
+    background:#ffffff;
+    margin: auto;
+    margin-bottom:200px ;
+   
+}
+/*  HERO SECTION  */
+.hero{
+    background-image: url('https://images.unsplash.com/photo-1578532570381-266569761d1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8TGVra2klMjBDb25zZXJ2YXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60') #082900;
+    background-size: cover;
+    background-position:center  ;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    
+}
+.hero--title{
+    background: transparent;
+    border: 2px solid   #F1FAEE;
+   padding: 10px 40px;
+   color: #F1FAEE;
+   font-weight: 900;
+  letter-spacing: 2px;
+   border-radius:10px ;
+ }
+.hero--description{
+     background-color: #0C150C;
+     border: 2px solid #F1FAEE;
+     color: #F1FAEE;
+   width: 712px;
+   font-family: "Open Sans";
+    padding: 10px 30px;
+   line-height: 1.5;
+   border-radius:10px ;
+
+}
+.hero-btn{
+    border: solid 2px #eafae5;
+    background-color: transparent;
+    color: #eafae5;
+    padding: 10px 15px ;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    background-color:#F1FAEE ;
+    color:#0C150C ;
+}
+
+/*  ACTIVITIES SECTION */
+.activities--section{
+  background-color: #eafae5;
+     height: 400px;
+    max-width:1440px ;
+     margin-top: -50px;
+     padding: 0px 10px;
+    
+
+}
+.activities--title{
+    padding-top: 50px;
+    font-size:40px;
+    color: #464C25;
+   
+
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  
+}
+
+.activities--des-title{
+    font-size:16px;
+    font-weight: 900;
+    color: #464C25;
+    width: 180px;
+    margin: auto;
+    cursor: pointer;
+}
+.activities--des-title:hover{
+       color:#0C150C;
+       font-size: 17px;
+       
+}
+.activities--des-history{
+    font-size:16px;
+    font-weight: 400;
+    color: #464C25;
+    width:250px;
+    
+    
+}
+.activities--description{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* GUIDE SECTION */
+.guide--section{
+    background: #0C150C;
+    color: #ffffff;
+    height: 294px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0px 6px 0px #243B08;
+    
+    
+}
+
+.guided--img{
+    height: 248px;
+    width: 180px;
+   border-radius: 10px;
+   margin: 0px 10px;
+
+}
+footer{
+    font-size: 20px;
+    margin-top: 50px;
+    background:  #243B08;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
